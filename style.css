@@ -1,0 +1,475 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+body{
+    background-image: url(bg-2.png);
+    background-color:linen;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  
+
+}
+
+nav{
+    height: 60px;
+}
+nav ul{
+    float: right;
+    margin-right:25px ;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 7px;
+}
+nav ul :nth-child(4){
+    margin-right:40px ;
+}
+nav ul :nth-child(6) a{
+    color:#000;
+    padding:4px 10px;
+    background-color: white;
+    border-radius: 14px;
+}
+nav ul li a{
+    color:#fff;
+    line-height:3;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+#sort-menu{
+    display: none;
+}
+#yes-menu{
+    font-size: 25px;
+    color:#d2d2d2;
+    line-height: 2;
+    padding-right:20px;
+    float:right;
+    display: none;
+}
+#no-menu{
+    font-size: 25px;
+    color:#d2d2d2;
+    line-height: 2;
+    padding-right:20px;
+    float:right;
+    display: none;
+}
+label h1{
+    color:goldenrod;
+    display: inline-block;
+    font-size: 30px;
+    line-height:1.5;
+    margin-left:8px ;
+}
+
+
+/* header part-===================== */
+.header{
+    background-color:gray;
+}
+.header-part{
+    display: flex;
+    justify-content:space-between;
+    padding:0 100px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.card{
+    max-height: 21rem;;
+    max-width:30rem;
+}
+.card p{
+    margin-top:35px;
+    margin-bottom: 40px;
+    color:darkgrey;
+}
+.card button{
+    background-color: green;
+    padding: 5px 8px;
+    border-radius: 15px;;
+}
+
+.web-img img{
+    max-height: 785px;
+}
+.web-img{
+    display: flex;
+}
+/*================================== main/4card
+================================================== */
+
+.two-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url(card-bg.png);
+    background-position-y: bottom;
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-height:auto;
+    max-width:25rem;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #d8d5d593;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+.card-1 h3{
+    padding-bottom:50px;
+}
+.card-1 p{
+    padding-bottom:50px;
+    padding:0 50px;
+    font-size:14px;
+}
+.card-1 img{
+    position: absolute;
+    height:250px;
+    bottom:0;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-height:auto;
+    max-width:25rem;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #d8d5d593;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-2 h3{
+    padding-bottom:50px;
+}
+.card-2 p{
+    padding-bottom:50px;
+    padding:0 50px;
+    font-size: 14px;
+}
+.card-2 img{
+    padding-top: 50px;
+    height:250px;
+}
+
+/* =========================after twwwo card 
+=======================================================*/
+.logo-and-passages{
+    display:flex;
+    justify-content: space-evenly;
+    padding:200px 0;
+    background-image: url(card-bg-1.png);
+    background-repeat: no-repeat;
+    background-size:center center;
+    background-size:100%;
+}
+.logo-with-text{
+    display: flex;
+    max-width: 450px;
+}
+.logo-with-text i{
+    font-size: 55px;
+    color:#fd0000;
+    padding-right:50px;
+}
+.logo-with-text h1{
+    font-size:48px;
+    color:#fff;
+}
+.paragraph{
+    max-width:450px;
+    color:#fff;
+}
+
+/* ==============progress============= */
+.progress{
+    padding-top:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.progress p{
+    padding-top:30px;
+}
+.progress h6{
+    color:green;
+    font-size: 15px;
+    padding-top:30px;
+}
+.progress h1{
+    color:#02bd02;
+    font-size: 50px;
+}
+/* ===================article-writer
+============================================= */
+.token{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(rocket-bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-bottom: 50px;
+    background-position-y: bottom;
+}
+.tokener-article{
+    max-width: 25rem;
+    padding-left:30px;
+}
+.tokener-article h1{
+    color:#444;
+    padding-bottom:40px;
+}
+.tokener-article p{
+    color:#666;
+    font-size:14px;
+}
+.tokener-photo img{
+    width:80%;
+    padding-left: 40px;
+}
+.footer{
+    background-color: #060027;
+}
+.bottom-menu{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    font-weight: 600;
+   
+
+}
+.social-connection{
+    padding:50px 20px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+    color:#fff;
+    padding:10px 0;
+
+}
+.socail-icon{
+    color:#fff;
+    padding:10px 0;
+
+}
+.builder{
+    padding-top:10px;
+    color:#fff;
+}
+.builder h5{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* media quary=========================== */
+@media only screen and (max-width:768px){
+    #yes-menu{
+        display: block;
+        line-height:2.5;
+    }
+    nav ul{
+        position: fixed;
+        left: -100%;
+    }
+    nav ul li{
+        display: block;
+        background-color: #0f6980c5;
+        width:100%;
+    }
+    #sort-menu:checked ~ul {
+        left:0;
+        top:50px;
+    }
+    #sort-menu:checked ~ label #yes-menu{
+        display: none;
+    }
+    #sort-menu:checked ~ label #no-menu{
+        display:block;
+    }
+/* header and banar 
+=====================================*/
+    .header-part{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding:5px;
+    
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .web-img img{
+        max-height:350px;
+        padding-top:10px;
+    }
+    /* two-cards----------------------- */
+    .two-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .card-1{
+        margin:10px 10px;
+    }
+    .card-1 img{
+        position: relative;
+        padding-top:50px;
+    }
+    .card-2{
+        margin: 10px 10px;
+    }
+
+    /*================== after-two-cards
+    ============================================== */
+    .logo-and-passages{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logo-with-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .logo-with-text i{
+        padding-left: 20px;
+        font-size: 50px;
+        padding-right:30px;
+    }
+    .logo-with-text h1{
+        font-size:30px;
+        color:#000;
+    }
+    .paragraph{
+        padding:30px 10px;
+        max-width:450px;
+        color:#000;
+    }
+
+/* =======================================progress
+===================================================== */
+.progress{
+    padding:20px 50px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+
+.token{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(rocket-bg.png);
+}
+.token img{
+    padding:50px;
+}
+.social-connection{
+    padding:50px 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+}
+
+/*============================ mid level device 768 to 992
+================================================================= */
+ 
+@media only screen and (min-width:769px) and (max-width:992px){
+    .header-part{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding:5px;
+        margin-top:10px;   
+    }
+    .card {
+        padding-left:20px;
+
+    }
+    .web-img img{
+        max-height:500px;
+        padding-top:10px;
+        
+    }
+    .web-img{
+        display: flex;
+        justify-content: center;
+    }
+    /* ================================after-two-cards
+    ====================================================== */
+
+    .logo-and-passages{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logo-with-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-with-text i{
+        padding-left: 20px;
+        font-size: 55px;
+        padding-right:30px;
+    }
+    .logo-with-text h1{
+        font-size:40px;
+    }
+    .paragraph{
+        padding:30px 10px;
+        max-width:600px;
+        color:#000;
+    }
+}
